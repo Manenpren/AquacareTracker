@@ -1,0 +1,5 @@
+{
+  "name": "AquaCare Tracker",
+  "description": "An elegant web application to help you track your aquarium cleaning schedules. It provides intelligent cleaning suggestions based on your tank's specifications, including fish, capacity, filtration, and plants, ensuring a healthy environment for your aquatic pets.",
+  "requestFramePermissions": []
+}
