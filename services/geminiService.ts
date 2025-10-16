@@ -1,10 +1,10 @@
 import type { Aquarium } from '../types';
 
 // Sugerencia mecánica basada en reglas simples
-type SuggestionResult = { 
-  full: number; 
-  partial: number; 
-  percentage: number; 
+type SuggestionResult = {
+  full: number;
+  partial: number;
+  percentage: number;
 };
 
 type AquariumDataForSuggestion = Omit<Aquarium, 'id' | 'lastCleaning' | 'nextCleaning' | 'lastPartialWaterChange' | 'nextPartialWaterChange' | 'icon' | 'iconColor' | 'cleaningFrequency' | 'waterChangeFrequency' | 'waterChangePercentage'>;
